@@ -1,0 +1,147 @@
+@font-face
+  font-family: 'GothamProMed'
+  src: url('/fonts/GothaProMed.otf') format("opentype")
+  font-weight: normal
+  font-style: normal
+
+@font-face
+  font-family: 'GothamProReg'
+  src: url('/fonts/GothaProReg.otf') format("opentype")
+  font-weight: normal
+  font-style: normal
+
+@font-face
+  font-family: 'GothamProBold'
+  src: url('/fonts/GothaProBol.otf') format("opentype")
+  font-weight: normal
+  font-style: normal
+
+@font-face
+  font-family: 'GothamProLight'
+  src: url('/fonts/GothaProLig.otf') format("opentype")
+  font-weight: normal
+  font-style: normal
+
+@font-face
+  font-family: 'GothamProItalic'
+  src: url('/fonts/GothaProIta.otf') format("opentype")
+  font-weight: normal
+  font-style: normal
+
+body
+  padding: 0px
+  margin: 0px
+  font-family: 'GothamProReg', 'Helvetica', 'Arial', sans-serif
+  background: #fff
+  min-width: 1024px
+
+
+.wrapper
+  width: 980px
+  margin: 0px auto
+
+.clearfix
+  &:after
+    clear: both
+    content: "."
+    display: block
+    height: 0
+    clear: both
+    visibility: hidden
+
+.relative
+  position: relative
+
+.inheritance-height
+  height: 100%
+
+.button
+  width: 380px
+  height: 75px
+  line-height: 75px
+  text-align: center
+  color: #fff
+
+  font-family: 'GothamProReg'
+  font-size: 19px
+
+  background: #107c3e
+
+  cursor: pointer
+  -webkit-transition: all 0.15s
+
+  &:hover
+    background: #108640
+
+
+
+
+
+section
+  padding: 70px 0
+
+
+  &.strip
+
+    .title
+      margin-bottom: 45px
+      line-height: 1
+
+    img
+      display: block
+      margin: 0px auto
+
+  &.clients
+    background: #107c3e
+
+    .title
+      color: #fff
+
+  .title
+    font-size: 41px
+    font-family: "GothamProLight"
+    line-height: 1.3
+    color: #262626
+    text-align: center
+    margin-bottom: 75px
+
+
+
+.solutions
+  .solution
+    width: 980px
+    height: 270px
+    margin-bottom: 75px
+
+    &:nth-child(2n)
+      .image
+        float: right
+      .about
+        float: left
+        padding-left: 0px
+        padding-right: 70px
+
+    &.last
+      margin-bottom: 0px
+
+    .image
+      float: left
+      width: 490px
+      height: 270px
+    .about
+      float: right
+      width: 420px
+      height: 220px
+      padding-top: 50px
+      padding-left: 70px
+
+      .name
+        font-size: 36px
+        color: #107c3e
+        margin-bottom: 30px
+        font-family: "GothamProLight"
+
+      .content
+        font-size: 15px
+        color: #4c4c4c
+        line-height: 1.3
